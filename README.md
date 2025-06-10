@@ -24,6 +24,6 @@ To learn and apply real-world Android app development skills using **Flutter** a
 
 ## 📬 Contact
 P M Muhammed Sidan  
-Email: [sidanstudies@gmail.com]  
+Email: sidanstudies@gmail.com
 GitHub: [github.com/MuhammedSidan0](https://github.com/MuhammedSidan0)
 
