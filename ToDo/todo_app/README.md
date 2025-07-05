@@ -1,16 +1,36 @@
-# todo_app
+# ✅ Task 1 – Taskly
 
-A new Flutter project.
+Taskly is a beautiful and functional To-Do List app built using **Flutter** for the [CODSOFT Android Development Internship]. It allows users to add, update, delete, and manage daily tasks with priorities, categories, and due dates — all stored locally using Hive.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📝 Add, Edit, Delete tasks
+- ✅ Mark tasks as completed
+- ⏳ Set priorities (Low, Medium, High)
+- 📆 Add due dates and categories
+- 🔍 Search and filter tasks (Coming soon!)
+- 📈 Daily completion stats (Coming soon!)
+- 💾 Local storage using Hive
+- 🧠 Clean Architecture + BLoC + Freezed
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 💡 Tech Stack
+
+- **Flutter**
+- **BLoC** for state management
+- **Hive CE** for local storage
+- **Freezed** for data classes
+- **SharedPreferences** for one-time login name
+
+---
+
+## 🛠 How to Run
+
+```bash
+flutter pub get
+flutter packages pub run build_runner build --delete-conflicting-outputs
+flutter run
