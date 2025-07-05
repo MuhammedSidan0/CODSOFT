@@ -1,16 +1,39 @@
-# daily_quotes
 
-A new Flutter project.
+---
 
-## Getting Started
+### ✅ **README for Task 2 – QuoteSpark (Quote of the Day App)**
 
-This project is a starting point for a Flutter application.
+```markdown
+# ✅ Task 2 – QuoteSpark
 
-A few resources to get you started if this is your first Flutter project:
+QuoteSpark is a delightful Flutter app that displays a new inspiring quote each day. Users can **refresh**, **favorite**, and **share** quotes with others. All favorite quotes are saved locally using Hive and viewable anytime.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Features
+
+- 🌟 Displays daily quote (from ZenQuotes API)
+- ❤️ Mark/unmark quotes as favorite
+- 📤 Share quotes via social apps
+- 📚 View all saved favorite quotes
+- 🧠 Clean Architecture + BLoC + Freezed
+
+---
+
+
+## 💡 Tech Stack
+
+- **Flutter**
+- **ZenQuotes API** (`https://zenquotes.io/api/random`)
+- **BLoC** for state management
+- **Hive CE** for storage
+- **Freezed** for data classes
+- **Share Plus** for social sharing
+
+---
+
+## 🛠 How to Run
+
+flutter pub get
+flutter packages pub run build_runner build --delete-conflicting-outputs
+flutter run
